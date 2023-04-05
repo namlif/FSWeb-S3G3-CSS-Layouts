@@ -1,0 +1,147 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background: rgb(83, 31, 31);
+    width: 100vw;
+    height: 20vh;
+}
+
+.proje-container{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: rgb(131, 119, 119);
+}
+
+.bilgiler-container{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.portfolyo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: rgb(131, 119, 119);
+    height: 40vh;
+}
+
+.prf{
+    display: flex;
+    margin: 1rem;
+}
+
+p{
+    display: flex;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.2rem;
+}
+
+.proje-item{
+    display: flex;
+    background-color: rgb(175, 170, 160);
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid rgb(196, 133, 24);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+    margin-left: 5vw;
+
+}
+
+h1{
+    font-size: 3rem;
+    color: azure;
+    margin-left: 6vw ;
+    margin-top: 2vw;
+    margin-bottom: 1rem;
+}
+
+h3{
+    display:flex;
+    color: azure;
+
+}
+
+h2{
+    display: flex;
+    font-size: 2rem;
+    color: azure;
+
+}
+
+.flex-item{
+    display: flex;
+    background-color: rgb(175, 170, 160);
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid rgb(196, 133, 24);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.vesika{
+    display: flex;
+    height: 25vh; 
+    width: 44vw;
+    margin-top: 1rem;
+    margin-left: 0.8vw;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 8vh;
+    background: rgb(83, 31, 31);
+}
+
+.bana-ulas{
+    display: flex;
+    background-color: rgb(175, 170, 160);
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid rgb(196, 133, 24);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    text-decoration: none;
+    font-size: 1rem;
+}
